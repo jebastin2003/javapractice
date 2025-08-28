@@ -12,8 +12,11 @@ public class Userinput {
 		int age=s.nextInt();
 		System.out.println("enter your id:");
 		int id=s.nextInt();
+		s.close();
+		System.out.println("welcome"+" "+name+"your age and id are"+" "+age+" "+id);
 		
 
 	}
 
 }
+
