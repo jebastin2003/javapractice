@@ -11,7 +11,7 @@ public class Userinput {
 		System.out.println("enter your age:");
 		int age=s.nextInt();
 		System.out.println("enter your id:");
-		int id=s.nextInt();
+		Long id=s.nextLong();
 		s.close();
 		System.out.println("welcome"+" "+name+"your age and id are"+" "+age+" "+id);
 		
@@ -19,4 +19,5 @@ public class Userinput {
 	}
 
 }
+
 
