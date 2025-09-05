@@ -6,14 +6,17 @@ interface A{
 interface B{
 	 void show();
 }
-class Interface implements A,B{
-	public void show() {
-		System.out.println("show from a and b ");
+class hello implements A,b{
+	public void show(){
+		System.out.println("show from a and b");
 	}
+}
+public class Interface{
 	public static void main(String[] args) {
-		Interface obj =new Interface();
+		hello obj =new hello();
 		obj.show();
 		
 	}
 
 }
+
