@@ -1,0 +1,21 @@
+package logicpractice;
+
+public class Starptrn3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int w2=5;
+		for(int i=0;i<=w2;i++) {
+			for(int k=0;k<=w2-i;k++) {
+				System.out.print(" ");
+			}
+			for(int j=0;j<=i;j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}
